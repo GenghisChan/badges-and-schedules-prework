@@ -21,7 +21,7 @@ def printer(array)
     puts "Hello, my name is #{name}."
   }
   array.each_with_index {|name, index|
-    puts "Hello, #{name}! You'll be assign to room #{index + 1}"
+    puts "Hello, #{name}! You'll be assigned to room #{index + 1}"
   }
 
 end
