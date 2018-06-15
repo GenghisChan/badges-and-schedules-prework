@@ -21,5 +21,5 @@ def printer(array)
     puts "Hello, my name is #{name}.".chomp
   }
   puts assign_rooms(array)
- end
+ 
 end
