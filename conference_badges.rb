@@ -11,7 +11,7 @@ end
 
 def assign_rooms(array)
   array.each_with_index.collect { |name, index|
-    "Welcome #{name}!, You'll be assigned to room #{index + 1}"
+    "Welcome #{name}! You'll be assigned to room #{index + 1}"
   }
 
 end
