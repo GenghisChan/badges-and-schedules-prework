@@ -18,6 +18,6 @@ end
 
 def printer(array)
   array.each { |name|
-    puts "Hello, my name is #{name}"
+    puts "Hello, my name is #{name}."
   }
 end
