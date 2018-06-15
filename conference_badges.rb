@@ -18,8 +18,10 @@ end
 
 def printer(array)
   array.each { |name|
-    puts "Hello, my name is #{name}.".chomp
+    puts "Hello, my name is #{name}."
   }
-  puts assign_rooms(array)
- 
+  array.each_with_index {|name, index|
+    puts "Hello, #{name}! You'll be assign to room #{index + 1}"
+  }
+
 end
