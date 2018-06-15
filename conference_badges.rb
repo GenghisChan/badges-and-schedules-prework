@@ -20,4 +20,5 @@ def printer(array)
   array.each { |name|
     puts "Hello, my name is #{name}."
   }
+  puts assign_rooms(array)
 end
