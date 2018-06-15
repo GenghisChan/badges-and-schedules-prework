@@ -17,5 +17,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  puts badge_maker(array)
+  array.each { |name|
+    puts "Hello, my name is #{name}"
+  }
 end
